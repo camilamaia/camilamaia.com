@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAF1F0;
+    padding: 2%;
+}
+
+.wrapper {
+    position: relative;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.sidebar-wrapper {
+    width: 25%;
+    height: 100%;
+    background-color: #184037;
+    position: absolute;
+
+    .content {
+        padding: 10%;
+        color: #fff;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+.main-wrapper {
+    margin-left: 25%;
+    display: block;
+    padding: 5%;
+    background-color: #FFF;
+
+    .introduction {
+        margin-bottom: 5%;
+        .full-name {
+            margin-top: 0%;
+            margin-bottom: 1%;
+        }
+
+        .career {
+            text-transform: uppercase;
+        }
+
+        .profile {
+            font-style: italic;
+        }
+
+    }
+
+}
+
+.profile-img {
+    border-radius: 50%;
+    width:80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+footer {
+    display: block;
+    padding: 3% 35%;
+    text-align: center;
+}
