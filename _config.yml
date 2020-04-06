@@ -10,7 +10,6 @@ twitter_username: cmaiacd
 github_username: camilamaia
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
