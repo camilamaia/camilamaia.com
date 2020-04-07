@@ -1,13 +1,14 @@
 title: Camila Maia
 email: cmaiacd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I've been coding professionally since 2012, mostly with Python and Ruby for web development.
+  Backend is my favorite field and my focus, I love to learn a bit from each area which I have direct contact to though.
+  I believe in the value of t-shaped professionals.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://camilamaia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmaiacd
 github_username: camilamaia
+show_excerpts: True
 
 # Build settings
 plugins:
