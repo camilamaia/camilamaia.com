@@ -20,7 +20,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        <img src="{{ post.cover-image | escape }}" alt="Smiley face">
+        <img class="cover-image" src="{{ post.cover-image | escape }}" alt="{{ post.cover-image-alt }}">
         {%- if site.show_excerpts -%}
           <p>
             {{ post.excerpt }}

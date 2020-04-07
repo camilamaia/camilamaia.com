@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Testing this!"
-date:   2020-04-07 11:56:45 -0300
-categories: testing!
+title: "Testing My New Blog!"
+date: 2020-04-07
+categories: [testing]
 cover-image: /assets/screenshot.png
+cover-image-alt: Screenshot of some random code
 ---
 
 **Hello world**, this is my second Jekyll blog post.

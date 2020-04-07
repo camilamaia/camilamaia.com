@@ -1,3 +1,10 @@
+show_excerpts: True
+collections:
+  projects:
+    output: true
+  contributions:
+    output: true
+
 title: Camila Maia
 email: cmaiacd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -8,7 +15,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://camilamaia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmaiacd
 github_username: camilamaia
-show_excerpts: True
 
 # Build settings
 plugins:

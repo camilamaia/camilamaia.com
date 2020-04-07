@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contributions
 title: Contributions
 permalink: /contributions/
 ---
