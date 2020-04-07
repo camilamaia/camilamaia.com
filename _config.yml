@@ -1,9 +1,12 @@
-show_excerpts: True
+show_excerpts: False
 collections:
   projects:
     output: true
   contributions:
     output: true
+
+languages: ["en", "pt-br"]
+exclude_from_localizations: ["assets", "_sass"]
 
 title: Camila Maia
 email: cmaiacd@gmail.com
@@ -16,3 +19,4 @@ github_username: camilamaia
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin

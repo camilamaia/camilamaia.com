@@ -7,4 +7,4 @@ cover-image: /assets/live-space-devs.jpg
 cover-image-alt: Youtube Live Cover
 ---
 
-Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+{% translate_file _contributions/2020-01-30-live-space-devs-rest-api-with-django.md %}
