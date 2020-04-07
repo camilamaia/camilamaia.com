@@ -1,0 +1,10 @@
+global:
+  subscribe: Subscribe
+  via-rss: via RSS
+
+title:
+  blog: Blog
+  contributions: Contributions
+  projects: Projects
+  speaker-deck: Speaker Deck
+  cv: CV

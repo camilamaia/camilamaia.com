@@ -1,0 +1,14 @@
+global:
+  subscribe: Inscrever-se
+  via-rss: via RSS
+
+header:
+  speaker-deck: Speaker Deck
+  cv: CV
+
+title:
+  blog: Blog
+  contributions: Contribuições
+  projects: Projetos
+  speaker-deck: Speaker Deck
+  cv: CV

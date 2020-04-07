@@ -1,6 +1,6 @@
 ---
 layout: collections
-title: Projects
+title: title.projects
 permalink: /projects/
 type: projects
 rss-enabled: false
