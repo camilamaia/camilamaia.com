@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<img class="shadow" src="/assets/cover.jpg">
+<img class="shadow" src="/assets/cover.jpg" alt="Home Cover">
 
 Hi, I am Camila Maia, a software developer. Welcome to my personal website.
 
@@ -16,5 +16,5 @@ Backend is my favorite one and my focus, I love to learn a bit from each area wh
 Overall, I would say I am a software development, mathematics and football lover. Let's get in touch!
 
 <p align="center">
-    <img class="profile shadow" src="/assets/profile.jpg">
+    <img class="profile shadow" src="/assets/profile.jpg" alt="Profile Picture">
 </p>
