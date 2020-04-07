@@ -3,7 +3,7 @@ layout: post
 title: "PyJamas Conf"
 categories: [event, portuguese]
 index: 0
-cover-image: /assets/pyjamas.png
+cover-image: /assets/pyjamas.jpg
 cover-image-alt: PyJamas Conf Logo
 ---
 

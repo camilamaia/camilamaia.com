@@ -19,7 +19,9 @@ layout: default
             {{ project.title | escape }}
           </a>
         </h3>
-        <img class="cover-image" src="{{ project.cover-image | escape }}" alt="{{ project.cover-image-alt }}">
+        <p align="center">
+          <img class="cover-image" src="{{ project.cover-image | escape }}" alt="{{ project.cover-image-alt }}">
+        </p>
         {%- if site.show_excerpts -%}
           <p>
             {{ project.excerpt }}

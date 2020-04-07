@@ -7,12 +7,9 @@ collections:
 
 title: Camila Maia
 email: cmaiacd@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I've been coding professionally since 2012, mostly with Python and Ruby for web development.
-  Backend is my favorite field and my focus, I love to learn a bit from each area which I have direct contact to though.
-  I believe in the value of t-shaped professionals.
+description: "" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://camilamaia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://camilamaia.github.io"
 twitter_username: cmaiacd
 github_username: camilamaia
 

@@ -12,6 +12,8 @@ main { display: block; /* Default value of `display` of `main` element is 'inlin
 
 /** Images */
 img { max-width: 100%; vertical-align: middle; }
+img.profile { height: 200px; }
+img.shadow { box-shadow: 3px 3px 1.5px grey; }
 
 /** Figures */
 figure > img { display: block; }

@@ -57,6 +57,14 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+
+  &.profile {
+    height: 200px;
+  }
+
+  &.shadow {
+    box-shadow: 3px 3px 1.5px grey;
+  }
 }
 
 
