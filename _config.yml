@@ -10,11 +10,15 @@ exclude_from_localizations: ["assets", "_sass"]
 
 title: Camila Maia
 email: cmaiacd@gmail.com
-description: ""
+description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://camilamaia.github.io"
 twitter_username: cmaiacd
+linkedin_username: cmaiacd
 github_username: camilamaia
+mastodon:
+  - username: cmaiacd
+    instance: mastodon.social
 
 # Build settings
 plugins:

@@ -16,10 +16,6 @@
           </span>
         </label>
 
-        <div>
-        <a class="page-link" href="{{ site.baseurl_root }}/">EN</a>
-        <a class="page-link" href="{{ site.baseurl_root }}/pt-br">PT-BR</a>
-        </div>
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -28,7 +24,11 @@
             {%- endif -%}
           {%- endfor -%}
           <a class="page-link" href="https://speakerdeck.com/cmaiacd" target="_blank">{% t title.speaker-deck %}</a>
-          <a class="page-link" href="https://camilamaia.github.io/cv/" target="_blank">{% t title.cv %}</a>
+          <a class="page-link" href="https://www.cv.cmaiacd.com" target="_blank">{% t title.cv %}</a>
+          <a class="page-link" href="{{ site.baseurl_root }}/"></a>
+          <a class="page-link" href="{{ site.baseurl_root }}/">EN</a>
+          <a class="page-link" href="{{ site.baseurl_root }}/pt-br">PT-BR</a>
+
         </div>
       </nav>
     {%- endif -%}
