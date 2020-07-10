@@ -1,15 +1,7 @@
-show_excerpts: True
-collections:
-  projects:
-    output: true
-  contributions:
-    output: true
-
 title: Camila Maia
 email: cmaiacd@gmail.com
 description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://camilamaia.github.io"
 twitter_username: cmaiacd
 linkedin_username: cmaiacd
 github_username: camilamaia
@@ -17,7 +9,20 @@ mastodon:
   - username: cmaiacd
     instance: mastodon.social
 
+show_excerpts: True
+
+collections:
+  projects:
+    output: true
+  Appearances:
+    output: true
+
+header_pages:
+  - appearances.markdown
+  - projects.markdown
+  - blog.markdown
+
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-multiple-languages-plugin
+  - jekyll-seo-tag

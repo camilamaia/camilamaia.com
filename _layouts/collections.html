@@ -14,8 +14,8 @@ layout: default
       {% assign items = site.projects | sort: 'index' | reverse %}
     {% when "blog" %}
       {% assign items = site.posts %}
-    {% when "contributions" %}
-      {% assign items = site.contributions %}
+    {% when "Appearances" %}
+      {% assign items = site.Appearances %}
   {%- endcase -%}
 
   {%- if items.size > 0 -%}
