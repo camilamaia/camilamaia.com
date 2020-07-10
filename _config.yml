@@ -14,13 +14,16 @@ show_excerpts: True
 collections:
   projects:
     output: true
-  Appearances:
+    order:
+      - scanapi.md
+      - pyjamas-conf.md
+  appearances:
     output: true
 
 header_pages:
-  - appearances.markdown
-  - projects.markdown
-  - blog.markdown
+  - appearances.md
+  - projects.md
+  - blog.md
 
 # Build settings
 plugins:

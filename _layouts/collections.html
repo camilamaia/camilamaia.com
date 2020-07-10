@@ -11,11 +11,11 @@ layout: default
 
   {% case page.type %}
     {% when "projects" %}
-      {% assign items = site.projects | sort: 'index' | reverse %}
+      {% assign items = site.projects %}
     {% when "blog" %}
       {% assign items = site.posts %}
-    {% when "Appearances" %}
-      {% assign items = site.Appearances %}
+    {% when "appearances" %}
+      {% assign items = site.appearances %}
   {%- endcase -%}
 
   {%- if items.size > 0 -%}
