@@ -1,18 +1,7 @@
-show_excerpts: False
-collections:
-  projects:
-    output: true
-  contributions:
-    output: true
-
-languages: ["en", "pt-br"]
-exclude_from_localizations: ["assets", "_sass"]
-
 title: Camila Maia
 email: cmaiacd@gmail.com
 description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://camilamaia.github.io"
 twitter_username: cmaiacd
 linkedin_username: cmaiacd
 github_username: camilamaia
@@ -20,7 +9,23 @@ mastodon:
   - username: cmaiacd
     instance: mastodon.social
 
+show_excerpts: True
+
+collections:
+  projects:
+    output: true
+    order:
+      - scanapi.md
+      - pyjamas-conf.md
+  appearances:
+    output: true
+
+header_pages:
+  - appearances.md
+  - projects.md
+  - blog.md
+
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-multiple-languages-plugin
+  - jekyll-seo-tag
