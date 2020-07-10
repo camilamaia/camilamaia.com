@@ -1,6 +1,6 @@
 ---
 layout: collections
-title: title.blog
+title: Blog
 permalink: /blog/
 type: blog
 rss-enabled: true

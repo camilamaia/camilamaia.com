@@ -7,4 +7,11 @@ cover-image: /assets/scanapi.png
 cover-image-alt: ScanAPI Logo
 ---
 
-{% translate_file _projects/scanapi.md %}
+Automated Integration Testing and Live Documentation for your API [https://pypi.org/project/scanapi/](https://pypi.org/project/scanapi/)
+
+![ScanAPI Header](/assets/scanapi.png)
+
+A library for your API that provides:
+
+- Automated Integration Testing
+- Automated Live Documentation

@@ -1,3 +1,0 @@
-[PT-BR]
-
-space devs

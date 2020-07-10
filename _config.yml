@@ -1,12 +1,9 @@
-show_excerpts: False
+show_excerpts: True
 collections:
   projects:
     output: true
   contributions:
     output: true
-
-languages: ["en", "pt-br"]
-exclude_from_localizations: ["assets", "_sass"]
 
 title: Camila Maia
 email: cmaiacd@gmail.com

@@ -1,6 +1,6 @@
 ---
 layout: collections
-title: title.contributions
+title: Contributions
 permalink: /contributions/
 type: contributions
 rss-enabled: false
