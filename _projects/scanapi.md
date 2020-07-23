@@ -2,8 +2,6 @@
 layout: post
 title: "ScanAPI"
 categories: [open-source, api, test, python]
-cover-image: /assets/scanapi.png
-cover-image-alt: ScanAPI Logo
 ---
 
 Automated Integration Testing and Live Documentation for your API [https://pypi.org/project/scanapi/](https://pypi.org/project/scanapi/)

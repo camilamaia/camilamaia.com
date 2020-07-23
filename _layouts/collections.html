@@ -31,9 +31,6 @@ layout: default
             {{ item.title | escape }}
           </a>
         </h3>
-        <p align="center">
-          <img class="cover-image" src="{{ item.cover-image | escape }}" alt="{{ item.cover-image-alt }}">
-        </p>
         {%- if site.show_excerpts -%}
           <p>
             {{ item.excerpt }}
