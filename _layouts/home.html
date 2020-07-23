@@ -9,37 +9,43 @@ layout: default
 
   {{ content }}
 
-  <h3 class="page-heading">Recent Appearances</h3>
-  <ul>
-    {% for appearance in site.appearances limit:10 %}
-    <li>
-      <a href="{{ appearance.url | relative_url }}">
-        {{ appearance.title | escape }}
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% if site.appearances.size > 0 %}
+    <h3 class="page-heading">Recent Appearances</h3>
+    <ul>
+      {% for appearance in site.appearances limit:10 %}
+      <li>
+        <a href="{{ appearance.url | relative_url }}">
+          {{ appearance.title | escape }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
-  <h3 class="page-heading">Recent Posts</h3>
-  <ul>
-    {% for post in site.posts limit:10 %}
-    <li>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% if site.posts.size > 0 %}
+    <h3 class="page-heading">Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit:10 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
-  <h3 class="page-heading">Recent Projects</h3>
-  <ul>
-    {% for project in site.projects limit:10 %}
-    <li>
-      <a href="{{ project.url | relative_url }}">
-        {{ project.title | escape }}
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% if site.projects.size > 0 %}
+    <h3 class="page-heading">Recent Projects</h3>
+    <ul>
+      {% for project in site.projects limit:10 %}
+      <li>
+        <a href="{{ project.url | relative_url }}">
+          {{ project.title | escape }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
 </div>
