@@ -17,6 +17,7 @@ layout: default
       <li>
         <a href="{{ appearance.url | relative_url }}">
           {{ appearance.title | escape }}
+          [{{ appearance.date | date: '%B, %Y' }}]
         </a>
       </li>
       {% endfor %}
