@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "PyJamas Conf"
-categories: [event, portuguese]
+title: "Event: Pyjamas Conf"
+categories: [
+    event,
+    pt-br,
+]
 ---
 
-24h de #Python diretamente do seu sofá em Português e ao vivo!
+[Pyjamas Conf](https://pyjamas.live): 24h of #Python directly live from your sofa!
 
 ![PyJamas Logo](/assets/pyjamas.jpg)
-
-O intuito é atingir Pythonistas espalhados por todo o mundo, nos mais variados fusos!
-
-[https://pyjamas.live](https://pyjamas.live)
