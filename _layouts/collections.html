@@ -20,7 +20,8 @@ layout: default
 
   {%- if items.size > 0 -%}
     <ul class="post-list">
-      {%- for item in items -%}
+      {% assign sorted_items = items | reverse %}
+      {%- for item in sorted_items -%}
       <li>
         {%- if page.use-date -%}
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

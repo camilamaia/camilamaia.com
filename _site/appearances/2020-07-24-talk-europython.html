@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Talk @ EuroPython - Automated Integration Testing and Live Documentation for your API | Camila Maia</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Talk @ EuroPython - Automated Integration Testing and Live Documentation for your API" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Talk at EuroPython 2020 about ScanAPI framework." />
+<meta property="og:description" content="Talk at EuroPython 2020 about ScanAPI framework." />
+<link rel="canonical" href="http://localhost:4000/appearances/2020-07-24-talk-europython.html" />
+<meta property="og:url" content="http://localhost:4000/appearances/2020-07-24-talk-europython.html" />
+<meta property="og:site_name" content="Camila Maia" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-09T00:00:00-03:00" />
+<script type="application/ld+json">
+{"description":"Talk at EuroPython 2020 about ScanAPI framework.","headline":"Talk @ EuroPython - Automated Integration Testing and Live Documentation for your API","dateModified":"2020-07-09T00:00:00-03:00","datePublished":"2020-07-09T00:00:00-03:00","url":"http://localhost:4000/appearances/2020-07-24-talk-europython.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appearances/2020-07-24-talk-europython.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Camila Maia" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Camila Maia</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/appearances/">Appearances</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="https://speakerdeck.com/cmaiacd" target="_blank">Speaker Deck</a>
+          <a class="page-link" href="/"></a>
+        </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Talk @ EuroPython - Automated Integration Testing and Live Documentation for your API</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-09T00:00:00-03:00" itemprop="datePublished">Jul 9, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://ep2020.europython.eu/talks/CjFe7r4-scanapi/">Talk</a> at <a href="https://ep2020.europython.eu">EuroPython 2020</a> about <a href="https://github.com/scanapi/scanapi">ScanAPI</a> framework.</p>
+
+<h4 id="talk-description">Talk description</h4>
+
+<p>In the current IT scenario, the use of APIs is, without question, widely vast, popular, and significant. It seems at least prudent to ensure they are working properly, as expected. To guarantee the quality of the data that is being consumed or used. To ensure that communication between services is occurring as expected. To ensure the system does, in fact, what it should do.</p>
+
+<p>ScanAPI is an open-source library that was created to solve all these points. ScanAPI provides an easy way to create integration tests for REST APIs via configuration files.</p>
+
+<p>The three main reasons that led me to the creation of this library were:</p>
+
+<ol>
+  <li>
+    <p>To be a firefighter in a scenario where most of the reported bugs were directly related to some API contract being broken or some endpoint having a behavior different from that expected by the consumer.</p>
+  </li>
+  <li>
+    <p>To need to deal with APIs with outdated or mistaken documentation.</p>
+  </li>
+  <li>
+    <p>To need to debug an endpoint in the middle of a “chain” of other endpoints. Where I needed to recreate a state that depends on the action of other endpoints.</p>
+  </li>
+</ol>
+
+<p>Given a fictitious example: debug an endpoint to reserve seats on an airplane, which depends directly on the previous call of an endpoint for user registration.</p>
+
+<p>The ScanAPI is open-source and written in Python. However, it can be used in APIs created in any other programming language, since the tests provided by it are integration tests.</p>
+
+<p>With ScanAPI you can:</p>
+
+<ul>
+  <li>Use environment variables</li>
+  <li>Create variables</li>
+  <li>Chaining requests - making a request from a result of previous responses</li>
+  <li>Hide sensitive information of the requests and responses in the generated report</li>
+  <li>Write Python code - if you want, it’s not necessary :)</li>
+</ul>
+
+<p>Topics I intend to address in this talk:</p>
+
+<ul>
+  <li>Motivation to create the library</li>
+  <li>What problems the library solves</li>
+  <li>How to test an API using a ScanAPI</li>
+  <li>Show the documentation generated by ScanAPI</li>
+  <li>An overview of how it is implemented</li>
+  <li>Where it is currently being used</li>
+  <li>Next steps</li>
+</ul>
+
+<p>Project Link: <a href="https://github.com/scanapi/scanapi">https://github.com/scanapi/scanapi</a></p>
+
+<p>Prerequisites:</p>
+<ul>
+  <li>Python</li>
+  <li>REST APIs</li>
+  <li>Integration tests</li>
+</ul>
+
+<p>Type: Talk (30 mins); Python level: Intermediate; Domain level: Intermediate</p>
+
+<p><a href="https://speakerdeck.com/cmaiacd/europython-2020-scanapi-automated-integration-testing-and-live-documentation-for-your-api">Slidedeck</a></p>
+
+  </div><a class="u-url" href="/appearances/2020-07-24-talk-europython.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Camila Maia</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Camila Maia</li><li><a class="u-email" href="mailto:cmaiacd@gmail.com">cmaiacd@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/camilamaia"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">camilamaia</span></a></li><li><a href="https://www.linkedin.com/in/cmaiacd"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">cmaiacd</span></a></li><li><a href="https://mastodon.social/@cmaiacd"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#mastodon"></use></svg> <span class="username">cmaiacd</span></a></li><li><a href="https://www.twitter.com/cmaiacd"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">cmaiacd</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
