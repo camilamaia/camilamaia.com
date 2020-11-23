@@ -15,8 +15,8 @@ collections:
   projects:
     output: true
     order:
-      - scanapi.md
       - pyjamas-conf.md
+      - scanapi.md
   appearances:
     output: true
 

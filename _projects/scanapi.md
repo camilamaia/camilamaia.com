@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OSS: ScanAPI"
+title: "ScanAPI"
 categories: [
     opensource,
     api,

@@ -27,4 +27,4 @@ Essa palestra visa mostrar um pouco do funcionamento da ScanAPI, da sua implemen
 
 Link do projeto: https://github.com/scanapi/scanapi
 
-[PT-BR Slidedeck](https://speakerdeck.com/cmaiacd/tdc-floripa-2020-scanapi-automatizacao-de-testes-de-integracao-para-a-sua-api)
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 62.3944%;"><iframe src="https://speakerdeck.com/player/4e63b0edda194bbeb8933afdb0bb134f" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
