@@ -2,7 +2,8 @@
 layout: post
 title: "Talk @ TDC Floripa 2020 - ScanAPI: Automatização de Testes de Integração para a sua API"
 date: 2020-06-25
-categories: [
+categories:
+  [
     "talk",
     "tdc",
     "scanapi",
@@ -11,8 +12,8 @@ categories: [
     "tests",
     "integration-tests",
     "documentation",
-    "opensource"
-]
+    "opensource",
+  ]
 ---
 
 [Talk](https://thedevconf.com/tdc/2020/floripaonline/trilha-python) at [TDC Floripa 2020](https://thedevconf.com/tdc/2020/floripaonline/trilhas) about [ScanAPI](https://github.com/scanapi/scanapi) framework (PT-BR)
@@ -27,4 +28,4 @@ Essa palestra visa mostrar um pouco do funcionamento da ScanAPI, da sua implemen
 
 Link do projeto: https://github.com/scanapi/scanapi
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 62.3944%;"><iframe src="https://speakerdeck.com/player/4e63b0edda194bbeb8933afdb0bb134f" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
+<script async class="speakerdeck-embed" data-id="4e63b0edda194bbeb8933afdb0bb134f" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>

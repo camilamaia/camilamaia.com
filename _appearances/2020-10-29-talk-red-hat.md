@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Talk @ EuroPython - ScanAPI: Automated Integration Testing and Live Documentation for your API"
-date: 2020-07-24
+title: "Talk @ Red Hat - ScanAPI: Automated Integration Testing and Live Documentation for your API"
+date: 2020-10-29
 categories:
   [
     "talk",
-    "europython",
     "scanapi",
     "python",
     "api",
@@ -16,7 +15,7 @@ categories:
   ]
 ---
 
-[Talk](https://ep2020.europython.eu/talks/CjFe7r4-scanapi/) at [EuroPython 2020](https://ep2020.europython.eu) about [ScanAPI](https://github.com/scanapi/scanapi) framework.
+Internal tech talk at [RedHat](https://www.redhat.com/pt-br) about [ScanAPI](https://scanapi.dev) framework.
 
 #### Talk description
 
@@ -54,14 +53,6 @@ Topics I intend to address in this talk:
 - Where it is currently being used
 - Next steps
 
-Project Link: [https://github.com/scanapi/scanapi](https://github.com/scanapi/scanapi)
+[https://scanapi.dev](https://scanapi.dev)
 
-Prerequisites:
-
-- Python
-- REST APIs
-- Integration tests
-
-Type: Talk (30 mins); Python level: Intermediate; Domain level: Intermediate
-
-<script async class="speakerdeck-embed" data-id="e80e9de2bb39466b93404126d3d02f79" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="a40377f817f645a095c70e3e13e1f576" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
