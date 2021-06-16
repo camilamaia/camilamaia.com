@@ -8,6 +8,7 @@ github_username: camilamaia
 mastodon:
   - username: cmaiacd
     instance: mastodon.social
+google_analytics: G-776QFZ9FD8
 
 show_excerpts: True
 
