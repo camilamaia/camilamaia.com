@@ -1,0 +1,2 @@
+[context.main]
+  environment = { JEKYLL_ENV = "production" }
