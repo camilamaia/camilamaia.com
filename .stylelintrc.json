@@ -1,0 +1,33 @@
+{
+    "extends": [
+        "stylelint-config-recommended"
+    ],
+    "processors": [
+        "stylelint-processor-ignore-front-matter"
+    ],
+    "ignoreFiles": [
+        "_site/**"
+    ],
+    "rules": {
+        "declaration-block-trailing-semicolon": "always",
+        "no-descending-specificity": [
+            true,
+            {
+                "ignore": [
+                    "selectors-within-list"
+                ]
+            }
+        ],
+        "no-invalid-double-slash-comments": null,
+        "no-irregular-whitespace": true,
+        "no-invalid-position-at-import-rule": null,
+        "at-rule-no-unknown": [
+            {},
+            {
+                "ignoreAtRules": [
+                    "%-"
+                ]
+            }
+        ]
+    }
+}

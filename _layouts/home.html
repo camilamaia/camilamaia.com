@@ -4,51 +4,40 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} {{ content }} {% if site.appearances.size > 0 %} {% assign
+  sorted_appearances = site.appearances | reverse %}
 
-  {{ content }}
-
-  {% if site.appearances.size > 0 %}
-    {% assign sorted_appearances = site.appearances | reverse %}
-    <h3 class="page-heading">Recent Appearances</h3>
-    <ul>
-      {% for appearance in sorted_appearances limit:10 %}
-      <li>
-        <a href="{{ appearance.url | relative_url }}">
-          {{ appearance.title | escape }}
-          [{{ appearance.date | date: '%B, %Y' }}]
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+  <h3 class="page-heading">Recent Appearances</h3>
+  <ul>
+    {% for appearance in sorted_appearances limit:10 %}
+    <li>
+      <a href="{{ appearance.url | relative_url }}">
+        {{ appearance.title | escape }} [{{ appearance.date | date: '%B, %Y' }}]
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %} {% if site.posts.size > 0 %} {% assign sorted_posts = site.posts |
+  reverse %}
+  <h3 class="page-heading">Recent Posts</h3>
+  <ul>
+    {% for post in sorted_posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %} {% if site.projects.size > 0 %}
+  <h3 class="page-heading">Recent Projects</h3>
+  <ul>
+    {% for project in site.projects limit:5 %}
+    <li>
+      <a href="{{ project.url | relative_url }}">
+        {{ project.title | escape }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
   {% endif %}
-
-  {% if site.posts.size > 0 %}
-    {% assign sorted_posts = site.posts | reverse %}
-    <h3 class="page-heading">Recent Posts</h3>
-    <ul>
-      {% for post in sorted_posts limit:5 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
-  {% if site.projects.size > 0 %}
-    <h3 class="page-heading">Recent Projects</h3>
-    <ul>
-      {% for project in site.projects limit:5 %}
-      <li>
-        <a href="{{ project.url | relative_url }}">
-          {{ project.title | escape }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-
 </div>
