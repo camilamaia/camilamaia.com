@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- render "head.liquid" -%}
+
+<body>
+  {%- render "header.liquid" -%}
+
+  <main aria-label="Content" class="page-content">
+    <div class="wrapper">{{ content }}</div>
+  </main>
+
+  {%- render "footer.liquid" -%}
+</body>
+
+</html>

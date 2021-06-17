@@ -1,0 +1,33 @@
+# If your theme is not using the supported directory structure, provide the root path
+# where to find the `templates/`, `sections/`, `snippets/` directories as they would
+# be uploaded to Shopify.
+root: .
+
+MissingTemplate:
+  enabled: false
+  ignore: []
+
+MissingRequiredTemplateFiles:
+  enabled: false
+  ignore: []
+
+RequiredDirectories:
+  enabled: false
+  ignore: []
+
+UndefinedObject:
+  enabled: false
+  ignore: []
+  exclude_snippets: true
+
+UnknownFilter:
+  enabled: false
+  ignore: []
+
+RemoteAsset:
+  enabled: false
+  ignore: []
+
+DefaultLocale:
+  enabled: false
+  ignore: []

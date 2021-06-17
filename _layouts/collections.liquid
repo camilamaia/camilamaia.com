@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  {{ content }} {% case page.type %} {% when "projects" %} {% assign items =
+  site.projects %} {% when "blog" %} {% assign items = site.posts %} {% when
+  "appearances" %} {% assign items = site.appearances %} {%- endcase -%} {%- if
+  items.size > 0 -%}
+  <ul class="post-list">
+    {% assign sorted_items = items | reverse %} {%- for item in sorted_items -%}
+    <li>
+      {%- if page.use-date -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ item.date | date: date_format }}</span>
+      {%- endif -%}
+      <h3>
+        <a class="post-link" href="{{ item.url | relative_url }}">
+          {{ item.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      <p>{{ item.excerpt }}</p>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  {%- if page.rss-enabled -%}
+  <p class="rss-subscribe">
+    subscribe
+    <a href="{{ '/feed.xml' | relative_url }}">via RSS</a>
+  </p>
+  {%- endif -%} {%- endif -%}
+</div>

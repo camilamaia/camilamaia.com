@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "2.3.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "hooks:pre-commit": "theme-check ."
+  },
+  "dependencies": {}
+}

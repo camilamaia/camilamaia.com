@@ -2,11 +2,7 @@
 layout: post
 title: "Talk @ Pixel Init - De Sistemas para o Mundo!"
 date: 2020-07-09
-categories: [
-    "talk",
-    "career",
-    "academy"
-]
+categories: ["talk", "career", "academy"]
 ---
 
 [Talk](pixelinit.ejpixel.com.br) at [Pixel Init](pixelinit.ejpixel.com.br) about Backend Developer Career (PT-BR)
