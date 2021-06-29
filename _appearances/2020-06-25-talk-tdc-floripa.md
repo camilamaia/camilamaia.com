@@ -26,6 +26,6 @@ Através de um arquivo de configuração YAML, você consegue implementar testes
 
 Essa palestra visa mostrar um pouco do funcionamento da ScanAPI, da sua implementação, discutir os próximos passos a serem seguidos e também divulgar a ferramenta para quem possa ter interesse, seja para sua utilização ou contribuição com o projeto.
 
-Link do projeto: https://github.com/scanapi/scanapi
+Link do projeto: [https://github.com/scanapi/scanapi](https://github.com/scanapi/scanapi)
 
 <script async class="speakerdeck-embed" data-id="4e63b0edda194bbeb8933afdb0bb134f" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>

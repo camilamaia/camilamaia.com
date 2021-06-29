@@ -21,6 +21,14 @@ categories:
 Talk at [GitHub Presente!](https://www.meetup.com/Floripa-Python-Meetup/events/276866977/) about
 [ScanAPI](https://scanapi.dev) framework (PT-BR).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tgFH2HKgHrM?start=966" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+<script async class="speakerdeck-embed" data-id="c58f6e99a4f34ab18cb3ecf165300f9e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br>
+
 #### Details (PT-BR)
 
 Esta edição do GitHub Presente vem recheada de conteúdo que você não vai querer perder! Venha participar de workshops com devs e profissionais da área de tecnologia no Brasil!
@@ -50,17 +58,3 @@ O streaming vai ser pelo Twitch! Para participar visite https://www.twitch.tv/gi
 [GitHub Presente! : Em Português Meetup](https://www.meetup.com/GitHub-Presente/)
 
 [GitHub Presente: Evento virtual que reúne devs e profissionais de tech do Brasil](https://www.meetup.com/GitHub-Presente/events/277693182/)
-
-<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-<div id="1057302731"></div>
-<script type="text/javascript">
-  var options = {
-    width: "100%",
-    height: 500,
-    video: "1057302731"
-  };
-  var player = new Twitch.Player("1057302731", options);
-  player.setVolume(0.5);
-</script>
-
-<script async class="speakerdeck-embed" data-id="c58f6e99a4f34ab18cb3ecf165300f9e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

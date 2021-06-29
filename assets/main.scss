@@ -3,3 +3,13 @@
 ---
 
 @import "minima";
+
+hr.dotted {
+  border-top: 1px dotted #bbb;
+  margin-bottom: 30px;
+}
+
+.recent-title {
+  @include relative-font-size(1.5);
+  margin-top: 10px;
+}

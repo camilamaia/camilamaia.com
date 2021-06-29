@@ -14,7 +14,8 @@ I am a Backend Engineer which loves topics like:
 - APIs;
 - Events architecture.
 
-I like to speak and share knowledge. I speak mostly in tech conferences and as a guest on YouTube channels. [Here](/appearances/) you can find my last appearances.
+I like to speak and share knowledge. I speak mostly in tech conferences and as a guest on YouTube
+channels.
 
 I've also helped to organize some tech events like:
 

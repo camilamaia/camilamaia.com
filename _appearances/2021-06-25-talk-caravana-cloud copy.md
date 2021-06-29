@@ -26,7 +26,7 @@ Talk at [Caravana Cloud](http://site.caravana.cloud) about [ScanAPI](https://sca
 > APIs e o projeto open source dela - o @scanapi\_ - ao vivo na mentoria coletiva! 🤩
 
 <br>
-<p><img src="/assets/talk-at-caravana-cloud.jpg" alt="Caravana Cloud Banner " /></p>
+<p><img src="/assets/images/talk-at-caravana-cloud.jpg" alt="Caravana Cloud Banner " /></p>
 
 <br>
 <blockquote class="twitter-tweet" data-lang="pt" data-theme="light"><p lang="pt" dir="ltr">Essa semana passamos pelo Módulo 04 do conteúdo do nosso Programa de Mentoria e nessa sexta-feira teremos a ilustre participação da <a href="https://twitter.com/cmaiacd?ref_src=twsrc%5Etfw">@cmaiacd</a> que vai conversar com nossos mentorados sobre REST APIs e o projeto open source dela - o <a href="https://twitter.com/scanapi_?ref_src=twsrc%5Etfw">@scanapi\_</a> - ao vivo na mentoria coletiva! 🤩 <a href="https://t.co/VzMID6cCGt">pic.twitter.com/VzMID6cCGt</a></p>&mdash; Caravana Cloud (@CaravanaCloud) <a href="https://twitter.com/CaravanaCloud/status/1408084280497127426?ref_src=twsrc%5Etfw">24 de junho de 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

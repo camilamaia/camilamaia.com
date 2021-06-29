@@ -26,6 +26,6 @@ Através de um arquivo de configuração (YAML/JSON), você consegue implementar
 
 Essa palestra visa mostrar um pouco do funcionamento da ScanAPI, como ela pode ajudar o seu time na sua arquitetura de micro serviços e discutir os próximos passos a serem seguidos
 
-Link do projeto: https://github.com/scanapi/scanapi
+Link do projeto: [https://github.com/scanapi/scanapi](https://github.com/scanapi/scanapi)
 
 <script async class="speakerdeck-embed" data-id="849168a07c6046e98062a21b6f92af17" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>

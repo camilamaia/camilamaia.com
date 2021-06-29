@@ -17,6 +17,12 @@ categories:
 
 Internal tech talk at [RedHat](https://www.redhat.com/pt-br) about [ScanAPI](https://scanapi.dev) framework.
 
+<script async class="speakerdeck-embed" data-id="a40377f817f645a095c70e3e13e1f576" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Demorei pra enviar esta mensagem, mas aqui vai: obrigadissimo <a href="https://twitter.com/cmaiacd?ref_src=twsrc%5Etfw">@cmaiacd</a> pela palestra super genial que ela deu sobre ScanAPI para a minha equipe de Software Quality Engineers na semana passada. Sen-sa-cio-nal!</p>&mdash; OgMaciel 🗽 (@OgMaciel) <a href="https://twitter.com/OgMaciel/status/1324474265295609857?ref_src=twsrc%5Etfw">November 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br>
+
 #### Talk description
 
 In the current IT scenario, the use of APIs is, without question, widely vast, popular, and significant. It seems at least prudent to ensure they are working properly, as expected. To guarantee the quality of the data that is being consumed or used. To ensure that communication between services is occurring as expected. To ensure the system does, in fact, what it should do.
@@ -54,7 +60,3 @@ Topics I intend to address in this talk:
 - Next steps
 
 [https://scanapi.dev](https://scanapi.dev)
-
-<script async class="speakerdeck-embed" data-id="a40377f817f645a095c70e3e13e1f576" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Demorei pra enviar esta mensagem, mas aqui vai: obrigadissimo <a href="https://twitter.com/cmaiacd?ref_src=twsrc%5Etfw">@cmaiacd</a> pela palestra super genial que ela deu sobre ScanAPI para a minha equipe de Software Quality Engineers na semana passada. Sen-sa-cio-nal!</p>&mdash; OgMaciel 🗽 (@OgMaciel) <a href="https://twitter.com/OgMaciel/status/1324474265295609857?ref_src=twsrc%5Etfw">November 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

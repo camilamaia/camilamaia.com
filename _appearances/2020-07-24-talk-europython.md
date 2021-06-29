@@ -18,6 +18,14 @@ categories:
 
 [Talk](https://ep2020.europython.eu/talks/CjFe7r4-scanapi/) at [EuroPython 2020](https://ep2020.europython.eu) about [ScanAPI](https://github.com/scanapi/scanapi) framework.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cypeJ3t5Uts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+<script async class="speakerdeck-embed" data-id="e80e9de2bb39466b93404126d3d02f79" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br>
+
 #### Talk description
 
 In the current IT scenario, the use of APIs is, without question, widely vast, popular, and significant. It seems at least prudent to ensure they are working properly, as expected. To guarantee the quality of the data that is being consumed or used. To ensure that communication between services is occurring as expected. To ensure the system does, in fact, what it should do.
@@ -63,5 +71,3 @@ Prerequisites:
 - Integration tests
 
 Type: Talk (30 mins); Python level: Intermediate; Domain level: Intermediate
-
-<script async class="speakerdeck-embed" data-id="e80e9de2bb39466b93404126d3d02f79" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>

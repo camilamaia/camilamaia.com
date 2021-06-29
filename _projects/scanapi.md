@@ -2,11 +2,12 @@
 layout: post
 title: "ScanAPI"
 categories: [opensource, api, test, python, integration-tests, documentation]
+no-date: true
 ---
 
 [ScanAPI](https://scanapi.dev): Automated Integration Testing and Live Documentation for your API!
 
-![ScanAPI Header](/assets/scanapi-github-hero-dark.png)
+![ScanAPI Header](/assets/images/scanapi-github-hero-dark.png)
 
 A library for your API that provides:
 
