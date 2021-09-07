@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Panel @ TDC Recife 2020 - Projeto Open Source, como é ser mantenedora?"
+title: "Panel @ TDC Recife 2020. Projeto Open Source, como é ser mantenedora?"
 date: 2020-10-28
 categories:
   [

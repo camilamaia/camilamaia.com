@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sprint @ EuroPython - ScanAPI"
+title: "Sprint @ EuroPython. ScanAPI"
 date: 2020-07-24
 categories:
   [

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Pyjamas Conf"
-categories: [event, pt-br]
+description: "24 hours streaming of talks about Python and connecting with Python communities around the world that you can access at home."
+categories: [event, python, free, stream, international, Brazil, pt-br, en]
 no-date: true
 ---
 
