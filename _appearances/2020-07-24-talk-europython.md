@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk @ EuroPython - ScanAPI: Automated Integration Testing and Live Documentation for your API"
+title: "Talk @ EuroPython. ScanAPI: Automated Integration Testing and Live Documentation for your API"
 date: 2020-07-24
 categories:
   [

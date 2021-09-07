@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ScanAPI"
+description: "Automated Integration Testing and Live Documentation for your API"
 categories: [opensource, api, test, python, integration-tests, documentation]
 no-date: true
 ---

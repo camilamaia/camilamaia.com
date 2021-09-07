@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk @ GitHub Presente! - Como testar e documentar REST APIs com ScanAPI"
+title: "Talk @ GitHub Presente!. Como testar e documentar REST APIs com ScanAPI"
 date: 2021-06-15
 categories:
   [

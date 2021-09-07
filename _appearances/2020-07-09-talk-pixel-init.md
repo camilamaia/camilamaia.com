@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk @ Pixel Init - De Sistemas para o Mundo!"
+title: "Talk @ Pixel Init. De Sistemas para o Mundo!"
 date: 2020-07-09
 categories: ["talk", "career", "academy"]
 ---

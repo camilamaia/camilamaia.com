@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk @ TDC São Paulo 2020 - ScanAPI: Automatização de Testes de Integração para a sua API"
+title: "Talk @ TDC São Paulo 2020. ScanAPI: Automatização de Testes de Integração para a sua API"
 date: 2020-08-26
 categories:
   [

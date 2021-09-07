@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Talk @ 57º Python Floripa on-line - Como testar e documentar REST APIs com ScanAPI"
+title: "Talk @ 57º Python Floripa on-line. Como testar e documentar REST APIs com ScanAPI"
 date: 2021-03-27
 categories:
   [

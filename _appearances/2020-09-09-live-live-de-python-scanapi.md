@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Live @ Live de Python - Conhecendo ScanAPI com Camila Maia"
+title: "Live @ Live de Python. Conhecendo ScanAPI com Camila Maia"
 date: 2020-09-09
 categories:
   [

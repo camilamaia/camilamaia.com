@@ -13,3 +13,70 @@ hr.dotted {
   @include relative-font-size(1.5);
   margin-top: 10px;
 }
+
+.panel {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.panel-item {
+  max-width: 200px;
+  padding: 0 50px;
+  margin: 10px;
+  border: 1px solid $grey-color-light;
+  flex: 1 0 auto;
+  height: auto;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .description {
+    color: $text-color;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-item {
+      margin-bottom: 20px;
+    }
+
+    .footer-item--tag {
+      background-color: $brand-color;
+      border: solid transparent;
+      border-radius: 30px;
+      width: 55px;
+      height: 20px;
+      color:$background-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  a a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
+}
+
+.panel-item:before {
+  content: '';
+  display: block;
+  padding-top: 10%;
+}
+
+.panel-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.see-all {
+  text-align: center;
+}
+
+ul {
+  list-style-type: circle;
+}

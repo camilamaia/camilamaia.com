@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Panel @ Pyjamas Conf 2019 - Open topic"
+title: "Panel @ Pyjamas Conf 2019. Open topic"
 date: 2019-12-14
 categories:
   [

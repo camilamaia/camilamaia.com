@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Live @ Sensedia Tech Show - Desbravando as APIs do Trello com Scanapi"
+title: "Live @ Sensedia Tech Show. Desbravando as APIs do Trello com Scanapi"
 date: 2020-09-24
 categories:
   [
