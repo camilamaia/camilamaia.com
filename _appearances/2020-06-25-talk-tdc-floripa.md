@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ TDC Floripa 2020. ScanAPI: Automatização de Testes de Integração para a sua API"
+at: TDC Floripa 2020
+type: talk
+title: "ScanAPI: Automatização de Testes de Integração para a sua API"
 date: 2020-06-25
 categories:
   [

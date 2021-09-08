@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ Hacktoberfest@nata.house 2020. Meus primeiros passos como mantenedora de um projeto open-source"
+at: Hacktoberfest@nata.house 2020
+type: talk
+title: "Meus primeiros passos como mantenedora de um projeto open-source"
 date: 2020-10-17
 categories: ["talk", "opensource"]
 ---

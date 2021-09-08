@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Live @ Spacedevs. Criando uma REST API com Django"
+at: Spacedevs
+type: live
+title: "Criando uma REST API com Django"
 date: 2020-01-30
 categories: ["live", "python", "api", "spacedevs", "django", "drf"]
 ---

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Live @ Marcus Pereira's Channel. Testando REST APIs com ScanAPI"
+at: Marcus Pereira's Channel
+type: Live
+title: "Testando REST APIs com ScanAPI"
 date: 2020-08-30
 categories:
   [

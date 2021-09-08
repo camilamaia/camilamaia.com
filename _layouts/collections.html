@@ -22,24 +22,38 @@ layout: default
   <ul class="post-list">
     {% assign sorted_items = items | reverse %}
     {%- for item in sorted_items -%}
-    <li>
-      {%- if page.no-date == nil -%}
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ item.date | date: date_format }}</span>
-      {%- endif -%}
-      <h3>
-        <a class="post-link" href="{{ item.url | relative_url }}">
-          {{ item.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-      <p>
-        {{ item.excerpt }}
-      </p>
-      {%- endif -%}
-      <a href="{{ item.url | relative_url }}">Read more</a>
-    </li>
-    <hr class="dotted">
+
+      <li>
+        {%- if page.no-date == nil -%}
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">
+            <i class="fas fa-calendar-alt fa-sm"></i>
+            {{ item.date | date: date_format }}
+          </span>
+        {%- endif -%}
+
+        <h3>
+          <a class="post-link" href="{{ item.url | relative_url }}">
+            {{ item.title | escape }}
+          </a>
+        </h3>
+
+        {%- if site.show_excerpts -%}
+          <p>
+            {{ item.excerpt }}
+          </p>
+        {%- endif -%}
+
+        <p class="categories">
+          <span> <i class="fas fa-tags fa-xs"></i> </span>
+          {% for category in item.categories %}
+            <span> {{ category }} </span>
+          {% endfor %}
+        </p>
+
+        <a href="{{ item.url | relative_url }}">Read more</a>
+      </li>
+      <hr class="dotted">
     {%- endfor -%}
   </ul>
 

@@ -5,7 +5,7 @@
 @import "minima";
 
 hr.dotted {
-  border-top: 1px dotted #bbb;
+  border-top: 1px dotted $grey-color-light;
   margin-bottom: 30px;
 }
 
@@ -14,14 +14,14 @@ hr.dotted {
   margin-top: 10px;
 }
 
-.panel {
+.card {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.panel-item {
+.card-item {
   max-width: 200px;
   padding: 0 50px;
   margin: 10px;
@@ -49,7 +49,7 @@ hr.dotted {
       background-color: $brand-color;
       border: solid transparent;
       border-radius: 30px;
-      width: 55px;
+      width: 80px;
       height: 20px;
       color:$background-color;
       display: flex;
@@ -63,13 +63,13 @@ hr.dotted {
   }
 }
 
-.panel-item:before {
+.card-item:before {
   content: '';
   display: block;
   padding-top: 10%;
 }
 
-.panel-item:hover {
+.card-item:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
@@ -79,4 +79,9 @@ hr.dotted {
 
 ul {
   list-style-type: circle;
+}
+
+.categories {
+  font-size: 14px;
+  color: $grey-color;
 }
