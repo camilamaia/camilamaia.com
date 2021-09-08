@@ -5,7 +5,7 @@
 @import "minima";
 
 hr.dotted {
-  border-top: 1px dotted #bbb;
+  border-top: 1px dotted $grey-color-light;
   margin-bottom: 30px;
 }
 
@@ -79,4 +79,9 @@ hr.dotted {
 
 ul {
   list-style-type: circle;
+}
+
+.categories {
+  font-size: 14px;
+  color: $grey-color;
 }

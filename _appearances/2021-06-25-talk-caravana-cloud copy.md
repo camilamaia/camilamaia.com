@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ Caravana Cloud. Como testar e documentar REST APIs com ScanAPI"
+at: Caravana Cloud
+type: talk
+title: "Como testar e documentar REST APIs com ScanAPI"
 date: 2021-06-25
 categories:
   [

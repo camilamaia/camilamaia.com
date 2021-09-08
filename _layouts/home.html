@@ -21,27 +21,21 @@ layout: default
       {% for appearance in sorted_appearances limit:6 %}
       <div class="panel-item">
         <a href="{{ appearance.url | relative_url }}">
-          {% assign fullTitle = appearance.title | escape | split: "@" %}
-          {% assign talkType = fullTitle[0] | scape %}
-          {% assign eventTitle = fullTitle[1] | split: "." %}
-          {% assign event = eventTitle[0] %}
-          {% assign title = eventTitle[1] %}
-
-          <p class="title"> {{ title }} </p>
+          <p class="title"> {{ appearance.title | escape }} </p>
           <div class="description">
             <p> at </p>
-            <p> {{ event }} </p>
+            <p> {{ appearance.at | escape }} </p>
           </div>
 
           <div class="footer-container">
             <div class="footer-item">
-              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <i class="fas fa-calendar-alt"></i>
               {{ appearance.date | date: '%b, %Y' }}
             </div>
 
             <div class="footer-item--tag">
               <span>
-                {{ talkType }}
+                {{ appearance.type | escape }}
               </span>
             </div>
 
@@ -64,7 +58,7 @@ layout: default
     <hr class="dotted">
     <div class="panel">
       {% assign reverse_projects = site.projects | reverse %}
-      {% for project in reverse_projects limit:5 %}
+      {% for project in reverse_projects limit:6 %}
       <div class="panel-item">
         <a href="{{ project.url | relative_url }}">
           <p class="title"> {{ project.title | escape }} </p>
@@ -75,8 +69,8 @@ layout: default
 
           <div class="footer-container">
             <div class="footer-item">
-              <i class="fa fa-tags"></i>
-              {% for category in project.categories limit:5 %}
+              <i class="fas fa-tags"></i>
+              {% for category in project.categories %}
                 {{ category }}
               {% endfor %}
             </div>

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Video @ Marcus Pereira's Channel. How to create end2end tests for your REST API with ScanAPI"
+at: Marcus Pereira's Channel
+type: video
+title: "How to create end2end tests for your REST API with ScanAPI"
 date: 2020-10-08
 categories:
   [

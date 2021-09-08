@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ 60º Python Floripa on-line. factory_boy: testing like a pro"
+at: 60º Python Floripa on-line
+type: talk
+title: "factory_boy: testing like a pro"
 date: 2021-06-26
 categories:
   [

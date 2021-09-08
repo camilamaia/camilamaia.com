@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ Pyjamas Conf 2019. ScanAPI: Automatização de Testes de Integração para a sua API"
+at: Pyjamas Conf 2019
+type: talk
+title: "ScanAPI: Automatização de Testes de Integração para a sua API"
 date: 2019-12-14
 categories:
   [

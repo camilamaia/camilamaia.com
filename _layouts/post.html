@@ -9,6 +9,7 @@ layout: default
       {%- if page.no-date == nil -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <i class="fas fa-calendar-alt fa-sm"></i>
         {{ page.date | date: date_format }}
         {%- endif -%}
       </time>
@@ -22,6 +23,13 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <p class="categories">
+    <span> <i class="fas fa-tags fa-xs"></i> </span>
+    {% for category in page.categories %}
+      <span> {{ category }} </span>
+    {% endfor %}
+  </p>
 
   {%- if site.disqus.shortname -%}
   {%- include disqus_comments.html -%}

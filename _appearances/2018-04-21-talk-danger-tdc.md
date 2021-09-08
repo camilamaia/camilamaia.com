@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ TDC Floripa 2018. Danger: code reviews mais automatizados, rápidos e inteligentes"
+at: TDC Floripa 2018
+type: talk
+title: "Danger: code reviews mais automatizados, rápidos e inteligentes"
 date: 2018-04-21
 categories: ["talk", "tdc", "danger", "ruby", "opensource"]
 ---

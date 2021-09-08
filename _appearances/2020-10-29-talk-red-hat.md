@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Talk @ Red Hat. ScanAPI: Automated Integration Testing and Live Documentation for your API"
+at: Red Hat
+type: talk
+title: "ScanAPI: Automated Integration Testing and Live Documentation for your API"
 date: 2020-10-29
 categories:
   [
