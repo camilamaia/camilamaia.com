@@ -17,9 +17,9 @@ layout: default
     <h3 class="recent-title">Recent Appearances</h3>
     <hr class="dotted">
 
-    <div class="card">
+    <div class="cards-container">
       {% for appearance in sorted_appearances limit:6 %}
-      <div class="card-item">
+      <div class="card">
         <a href="{{ appearance.url | relative_url }}">
           <p class="title"> {{ appearance.title | escape }} </p>
           <div class="description">
@@ -56,7 +56,7 @@ layout: default
     {% if site.projects.size > 0 %}
     <h3 class="recent-title">Recent Projects</h3>
     <hr class="dotted">
-    <div class="card">
+    <div class="cards-container">
       {% assign reverse_projects = site.projects | reverse %}
       {% for project in reverse_projects limit:6 %}
       <div class="card-item">

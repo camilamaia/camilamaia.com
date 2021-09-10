@@ -14,14 +14,14 @@ hr.dotted {
   margin-top: 10px;
 }
 
-.card {
+.cards-container {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card-item {
+.card {
   max-width: 200px;
   padding: 0 50px;
   margin: 10px;
@@ -63,13 +63,13 @@ hr.dotted {
   }
 }
 
-.card-item:before {
+.card:before {
   content: '';
   display: block;
   padding-top: 10%;
 }
 
-.card-item:hover {
+.card:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
