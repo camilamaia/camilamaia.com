@@ -16,7 +16,7 @@ organize/create:
 - [EuroPython 2020](https://ep2020.europython.eu)
 - [Python Brasil 2020](https://2020.pythonbrasil.org.br)
 
-For the last couple of years, I've been focusing more and more on open source. Open source is where
+For the last couple of years, I've been focusing increasingly on open source. Open source is where
 I could find the perfect fit between people connection and coding in my day-to-day. As a result of
 this effort, my GitHub profile was the first one to be accepted for the
 [GitHub Sponsors program](https://github.com/sponsors) in Brazil, which made me incredibly happy.
