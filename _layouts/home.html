@@ -59,7 +59,7 @@ layout: default
     <div class="cards-container">
       {% assign reverse_projects = site.projects | reverse %}
       {% for project in reverse_projects limit:6 %}
-      <div class="card-item">
+      <div class="card">
         <a href="{{ project.url | relative_url }}">
           <p class="title"> {{ project.title | escape }} </p>
 
