@@ -18,7 +18,7 @@ categories:
   ]
 ---
 
-Talk at [60º Python Floripa on-line][60º python floripa on-line] about best practices using [factory_boy][factory_boy] (PT-BR)
+Talk at [60º Python Floripa on-line][60º python floripa on-line] about best practices using [factory_boy][factory_boy] (PT-BR).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NVJRklJswBs?start=1027" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
