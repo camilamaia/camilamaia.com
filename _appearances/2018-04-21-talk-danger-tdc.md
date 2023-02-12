@@ -4,7 +4,7 @@ at: TDC Floripa 2018
 type: talk
 title: "Danger: code reviews mais automatizados, rápidos e inteligentes"
 date: 2018-04-21
-categories: ["talk", "tdc", "danger", "ruby", "opensource"]
+categories: ["talk", "tdc", "danger", "ruby", "open-source"]
 ---
 
 [Talk](https://thedevconf.com/tdc/2018/florianopolis/trilha-ruby) at [TDC Floripa 2018](https://thedevconf.com/tdc/2018/florianopolis/trilhas) about [Danger](https://danger.systems/) (PT-BR)

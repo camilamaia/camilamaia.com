@@ -14,7 +14,7 @@ categories:
     "tests",
     "integration-tests",
     "documentation",
-    "opensource",
+    "open-source",
   ]
 ---
 

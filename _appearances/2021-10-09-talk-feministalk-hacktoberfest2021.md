@@ -11,7 +11,7 @@ categories:
     "#hacktoberfest2021",
     "feministech",
     "meetup",
-    "opensource",
+    "open-source",
   ]
 ---
 
@@ -26,6 +26,6 @@ open source (PT-BR).
 
 <br>
 
-<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Feministalk <a href="https://twitter.com/hashtag/hacktoberfest2021?src=hash&amp;ref_src=twsrc%5Etfw">#hacktoberfest2021</a> ON!🔴 <br>Primeira palestrante <a href="https://twitter.com/cmaiacd?ref_src=twsrc%5Etfw">@cmaiacd</a> esta falando sobre Open Source.<a href="https://twitter.com/hashtag/feministech?src=hash&amp;ref_src=twsrc%5Etfw">#feministech</a> <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a><br><br>Clica aqui -&gt; <a href="https://t.co/qiyjAtDfcT">https://t.co/qiyjAtDfcT</a> <a href="https://t.co/aWdFH5u61R">pic.twitter.com/aWdFH5u61R</a></p>&mdash; Feministech (@feminis_tech) <a href="https://twitter.com/feminis_tech/status/1446874823540477952?ref_src=twsrc%5Etfw">October 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Feministalk <a href="https://twitter.com/hashtag/hacktoberfest2021?src=hash&amp;ref_src=twsrc%5Etfw">#hacktoberfest2021</a> ON!🔴 <br>Primeira palestrante <a href="https://twitter.com/cmaiacd?ref_src=twsrc%5Etfw">@cmaiacd</a> esta falando sobre Open Source.<a href="https://twitter.com/hashtag/feministech?src=hash&amp;ref_src=twsrc%5Etfw">#feministech</a> <a href="https://twitter.com/hashtag/open-source?src=hash&amp;ref_src=twsrc%5Etfw">#open-source</a><br><br>Clica aqui -&gt; <a href="https://t.co/qiyjAtDfcT">https://t.co/qiyjAtDfcT</a> <a href="https://t.co/aWdFH5u61R">pic.twitter.com/aWdFH5u61R</a></p>&mdash; Feministech (@feminis_tech) <a href="https://twitter.com/feminis_tech/status/1446874823540477952?ref_src=twsrc%5Etfw">October 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [feministech]: https://twitter.com/feminis_tech

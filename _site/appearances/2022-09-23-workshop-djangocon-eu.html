@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Projeto Open Source, como é ser mantenedora? | Camila Maia</title>
+<title>ScanAPI: Automated Integration Testing and Live Documentation for your Django APIs | Camila Maia</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Projeto Open Source, como é ser mantenedora?" />
+<meta property="og:title" content="ScanAPI: Automated Integration Testing and Live Documentation for your Django APIs" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Panel at TDC Recife 2020 about what is it like to be a maintainer in an Open Source project (PT-BR)." />
-<meta property="og:description" content="Panel at TDC Recife 2020 about what is it like to be a maintainer in an Open Source project (PT-BR)." />
-<link rel="canonical" href="http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html" />
-<meta property="og:url" content="http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html" />
+<meta name="description" content="Workshop at DjangoCon EU 2022 about ScanAPI framework." />
+<meta property="og:description" content="Workshop at DjangoCon EU 2022 about ScanAPI framework." />
+<link rel="canonical" href="http://localhost:4000/appearances/2022-09-23-workshop-djangocon-eu.html" />
+<meta property="og:url" content="http://localhost:4000/appearances/2022-09-23-workshop-djangocon-eu.html" />
 <meta property="og:site_name" content="Camila Maia" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-10-28T00:00:00+01:00" />
+<meta property="article:published_time" content="2022-09-23T00:00:00+02:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html","headline":"Projeto Open Source, como é ser mantenedora?","dateModified":"2020-10-28T00:00:00+01:00","datePublished":"2020-10-28T00:00:00+01:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html"},"description":"Panel at TDC Recife 2020 about what is it like to be a maintainer in an Open Source project (PT-BR).","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/appearances/2022-09-23-workshop-djangocon-eu.html","headline":"ScanAPI: Automated Integration Testing and Live Documentation for your Django APIs","dateModified":"2022-09-23T00:00:00+02:00","datePublished":"2022-09-23T00:00:00+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appearances/2022-09-23-workshop-djangocon-eu.html"},"description":"Workshop at DjangoCon EU 2022 about ScanAPI framework.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Camila Maia" /><script src="https://kit.fontawesome.com/5819480783.js" crossorigin="anonymous"></script>
 </head>
@@ -41,28 +41,62 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Projeto Open Source, como é ser mantenedora?</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2020-10-28T00:00:00+01:00" itemprop="datePublished"><i class="fas fa-calendar-alt fa-sm"></i>
-        Oct 28, 2020</time></p>
+    <h1 class="post-title p-name" itemprop="name headline">ScanAPI: Automated Integration Testing and Live Documentation for your Django APIs</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-09-23T00:00:00+02:00" itemprop="datePublished"><i class="fas fa-calendar-alt fa-sm"></i>
+        Sep 23, 2022</time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><a href="https://thedevconf.com/tdc/2020/recifeonline/trilha-python">Panel</a> at
-<a href="https://thedevconf.com/tdc/2020/recifeonline/trilhas">TDC Recife 2020</a> about what is it like to
-be a maintainer in an Open Source project (PT-BR).</p>
+    <p>Workshop at <a href="https://2022.djangocon.eu">DjangoCon EU 2022</a> about <a href="https://github.com/scanapi/scanapi">ScanAPI</a>
+framework.</p>
 
-<p align="center">
-  <img src="/assets/images/panel-tdc-recife-2020.png" width="900" alt="Panel TDC" />
-</p>
+<p><a href="https://pretalx.evolutio.pt/djangocon-europe-2022/talk/AFYRWB/">https://pretalx.evolutio.pt/djangocon-europe-2022/talk/AFYRWB/</a></p>
+
+<script async="" class="speakerdeck-embed" data-id="95fb69e56ca84bb8847a703aa7647ce9" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p><br /></p>
+
+<h4 id="details">Details</h4>
+
+<p>One of the most common use cases of Django is to create REST APIs, especially using the Django REST framework. When creating APIs, we need to ensure the endpoints are working properly, as expected. To ensure they do, in fact, what they should do.</p>
+
+<p>ScanAPI is an open-source Python library that was created to help in this task. ScanAPI provides an easy way to create integration tests for REST APIs via configuration files. Given an API specification, written by the user in YAML/JSON format, the library hits the specified endpoints, runs the test cases, and generates a detailed report of this execution - that can be also used as the API documentation itself.</p>
+
+<p>After a short intro of what ScanAPI is and what was the motivation to create it (5 min), we go over the following topics</p>
+
+<ul>
+  <li>Short Intro about the API we will test and document</li>
+  <li>Setup - Installation + configure the project name</li>
+  <li>Document and test the first endpoint</li>
+  <li>How to use environment variables</li>
+  <li>How to hide sensitive information in the reports</li>
+  <li>How to chain requests</li>
+  <li>How to use nested endpoints</li>
+  <li>How to use default values</li>
+  <li>How to split the specification file into multiple files</li>
+  <li>Quick overview about how to use custom reports</li>
+  <li>Quick overview about how to add ScanAPI to a pipeline</li>
+</ul>
+
+<p>ScanAPI Links:</p>
+
+<ul>
+  <li>GitHub Organization: <a href="https://github.com/scanapi">https://github.com/scanapi</a></li>
+  <li>Website: <a href="https://scanapi.dev">https://scanapi.dev</a></li>
+  <li>Twitter: <a href="http://twitter.com/scanapi_">http://twitter.com/scanapi_</a></li>
+</ul>
+
 
   </div>
 
   <p class="categories">
     <span> <i class="fas fa-tags fa-xs"></i> </span>
     
-      <span> panel </span>
+      <span> workshop </span>
     
-      <span> tdc </span>
+      <span> djangocon </span>
+    
+      <span> djangocon-europe </span>
     
       <span> scanapi </span>
     
@@ -78,7 +112,7 @@ be a maintainer in an Open Source project (PT-BR).</p>
     
       <span> open-source </span>
     
-  </p><a class="u-url" href="/appearances/2020-10-30-panel-tdc-recife.html" hidden></a>
+  </p><a class="u-url" href="/appearances/2022-09-23-workshop-djangocon-eu.html" hidden></a>
 </article>
 
       </div>

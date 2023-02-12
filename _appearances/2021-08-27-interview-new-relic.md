@@ -8,7 +8,7 @@ categories: [
     "interview",
     "new relic",
     "twitch",
-    "opensource",
+    "open-source",
     "community",
     "scanapi",
     "en"

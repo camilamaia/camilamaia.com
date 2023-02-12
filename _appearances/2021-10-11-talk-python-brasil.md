@@ -9,7 +9,7 @@ categories:
     "django",
     "documentation",
     "factory_boy",
-    "opensource",
+    "open-source",
     "python",
     "python-brasil",
     "talk",

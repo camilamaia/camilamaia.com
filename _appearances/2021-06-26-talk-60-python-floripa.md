@@ -10,7 +10,7 @@ categories:
     "documentation",
     "factory_boy",
     "meetup",
-    "opensource",
+    "open-source",
     "python",
     "python-floripa",
     "talk",

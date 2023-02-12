@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Projeto Open Source, como é ser mantenedora? | Camila Maia</title>
+<title>factory_boy: testing like a pro | Camila Maia</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Projeto Open Source, como é ser mantenedora?" />
+<meta property="og:title" content="factory_boy: testing like a pro" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Panel at TDC Recife 2020 about what is it like to be a maintainer in an Open Source project (PT-BR)." />
-<meta property="og:description" content="Panel at TDC Recife 2020 about what is it like to be a maintainer in an Open Source project (PT-BR)." />
-<link rel="canonical" href="http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html" />
-<meta property="og:url" content="http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html" />
+<meta name="description" content="Talk at DjangoCon US 2022 about best practices using factory_boy." />
+<meta property="og:description" content="Talk at DjangoCon US 2022 about best practices using factory_boy." />
+<link rel="canonical" href="http://localhost:4000/appearances/2022-10-13-talk-djangocon-us.html" />
+<meta property="og:url" content="http://localhost:4000/appearances/2022-10-13-talk-djangocon-us.html" />
 <meta property="og:site_name" content="Camila Maia" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-10-28T00:00:00+01:00" />
+<meta property="article:published_time" content="2022-10-13T00:00:00+02:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html","headline":"Projeto Open Source, como é ser mantenedora?","dateModified":"2020-10-28T00:00:00+01:00","datePublished":"2020-10-28T00:00:00+01:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appearances/2020-10-30-panel-tdc-recife.html"},"description":"Panel at TDC Recife 2020 about what is it like to be a maintainer in an Open Source project (PT-BR).","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/appearances/2022-10-13-talk-djangocon-us.html","headline":"factory_boy: testing like a pro","dateModified":"2022-10-13T00:00:00+02:00","datePublished":"2022-10-13T00:00:00+02:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appearances/2022-10-13-talk-djangocon-us.html"},"description":"Talk at DjangoCon US 2022 about best practices using factory_boy.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Camila Maia" /><script src="https://kit.fontawesome.com/5819480783.js" crossorigin="anonymous"></script>
 </head>
@@ -41,44 +41,78 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Projeto Open Source, como é ser mantenedora?</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2020-10-28T00:00:00+01:00" itemprop="datePublished"><i class="fas fa-calendar-alt fa-sm"></i>
-        Oct 28, 2020</time></p>
+    <h1 class="post-title p-name" itemprop="name headline">factory_boy: testing like a pro</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-10-13T00:00:00+02:00" itemprop="datePublished"><i class="fas fa-calendar-alt fa-sm"></i>
+        Oct 13, 2022</time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><a href="https://thedevconf.com/tdc/2020/recifeonline/trilha-python">Panel</a> at
-<a href="https://thedevconf.com/tdc/2020/recifeonline/trilhas">TDC Recife 2020</a> about what is it like to
-be a maintainer in an Open Source project (PT-BR).</p>
+    <p>Talk at <a href="https://2022.djangocon.us">DjangoCon US 2022</a> about best practices using
+<a href="https://factoryboy.readthedocs.io/en/stable/">factory_boy</a>.</p>
 
-<p align="center">
-  <img src="/assets/images/panel-tdc-recife-2020.png" width="900" alt="Panel TDC" />
-</p>
+<p><a href="https://2022.djangocon.us/talks/factory-boy-testing-like-a-pro/">https://2022.djangocon.us/talks/factory-boy-testing-like-a-pro/</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OR-HwCPdFxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<script async="" class="speakerdeck-embed" data-id="26bca231f5ae4c81bf05d93cfd4b101b" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p><br /></p>
+
+<h4 id="details">Details</h4>
+
+<p>After working using the factory_boy library for over 3 years on a Django monolith containing +230 tables, +2200 relevant files, and +75k relevant lines of code, I’ve collected and listed all my biggest learnings.</p>
+
+<p>In this presentation, I try to share some of my experiences, showing what I consider to be good practices in using factory_boy in complex systems.</p>
+
+<p>Content:</p>
+
+<ul>
+  <li>A short introduction of myself
+factory_boy: what is it? - the definition and the purpose of the tool</li>
+  <li>Example application - a quick overview of the application we will use to demonstrate the best practices</li>
+  <li>How to install factory_boy</li>
+  <li>How to use factory_boy</li>
+  <li>Best Practices:
+    <ol>
+      <li>Factories must represent their models</li>
+      <li>Do not rely on defaults from factories</li>
+      <li>Factories must have only the required data. if the field is nullable -&gt; under traits.</li>
+      <li>Build over create</li>
+      <li>If FK is in the table -&gt; SubFactory. If FK is in the other table -&gt; RelatedFactory + trait</li>
+      <li>Fixtures only to wrap factories in the test file</li>
+      <li>Avoid using fixtures on shared files like conftest</li>
+    </ol>
+  </li>
+  <li>Wrapping up</li>
+</ul>
+
+<p>Repository: <a href="https://github.com/camilamaia/factory-boy-best-practices">github.com/camilamaia/factory-boy-best-practices</a></p>
+
 
   </div>
 
   <p class="categories">
     <span> <i class="fas fa-tags fa-xs"></i> </span>
     
-      <span> panel </span>
+      <span> talk </span>
     
-      <span> tdc </span>
+      <span> djangocon </span>
     
-      <span> scanapi </span>
-    
-      <span> python </span>
-    
-      <span> api </span>
-    
-      <span> tests </span>
-    
-      <span> integration-tests </span>
+      <span> djangocon-us </span>
     
       <span> documentation </span>
     
+      <span> factory_boy </span>
+    
       <span> open-source </span>
     
-  </p><a class="u-url" href="/appearances/2020-10-30-panel-tdc-recife.html" hidden></a>
+      <span> python </span>
+    
+      <span> tests </span>
+    
+  </p><a class="u-url" href="/appearances/2022-10-13-talk-djangocon-us.html" hidden></a>
 </article>
 
       </div>

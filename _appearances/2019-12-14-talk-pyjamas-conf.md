@@ -9,7 +9,7 @@ categories:
     "api",
     "documentation",
     "integration-tests",
-    "opensource",
+    "open-source",
     "pt-br",
     "pyjamas",
     "python",
