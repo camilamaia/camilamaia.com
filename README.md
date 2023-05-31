@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c893a24c-06de-47c9-9e97-e67cc2af1027/deploy-status)](https://app.netlify.com/sites/boring-montalcini-a0bc72/deploys)
 
-# cmaiacd.com
+# camilamaia.com
 
 ## Tech Stack
 
