@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+  <header class="post-header">
+    <h1 class="post-title">Appearances</h1>
+  </header>
+
+  {% assign items = site.appearances %}
+
+  {%- if items.size > 0 -%}
+  <ul class="post-list">
+    {% assign sorted_items = items | reverse %}
+    {%- for item in sorted_items -%}
+
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">
+          <i class="fas fa-calendar-alt fa-sm"></i>
+          {{ item.date | date: date_format }}
+        </span>
+
+        <h3>
+          <a class="post-link" href="{{ item.url | relative_url }}">
+            {{ item.title | escape }}
+          </a>
+        </h3>
+
+        <p>
+          {{ item.excerpt }}
+        </p>
+
+        <p class="categories">
+          <span> <i class="fas fa-tags fa-xs"></i> </span>
+          {% for category in item.categories %}
+            <span> {{ category }} </span>
+          {% endfor %}
+        </p>
+
+        <a href="{{ item.url | relative_url }}">Read more</a>
+      </li>
+      <hr class="dotted">
+    {%- endfor -%}
+  </ul>
+
+  {%- endif -%}
+
+</div>

@@ -12,6 +12,18 @@ google_analytics: G-TWFW32JJB6
 
 show_excerpts: True
 
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
 collections:
   projects:
     output: true
@@ -20,6 +32,7 @@ collections:
       - scanapi.md
   appearances:
     output: true
+    permalink: /appearances/:path/
 
 header_pages:
   - appearances.md
@@ -30,3 +43,4 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
