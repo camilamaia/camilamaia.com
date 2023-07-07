@@ -28,10 +28,9 @@
         <use xlink:href="{{ '/assets/images/minima-social-icons.svg#pinterest'| prepend: site.baseurl_root }}"></use>
       </svg> <span class="username">{{ site.pinterest_username| escape }}</span></a></li>{%- endif -%}
   {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a
-      href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon">
+      rel="me" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon">
         <use xlink:href="{{ '/assets/images/minima-social-icons.svg#mastodon'| prepend: site.baseurl_root }}"></use>
       </svg> <span class="username">{{ mst.username|escape }}</span></a></li>{%- endif -%}{%- endfor -%}
-      <a rel="me" href="https://mastodon.social/@cmaiacd">
   {%- if site.twitter_username -%}<li><a
       href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon">
         <use xlink:href="{{ '/assets/images/minima-social-icons.svg#twitter'| prepend: site.baseurl_root }}"></use>
