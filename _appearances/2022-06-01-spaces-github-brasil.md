@@ -1,11 +1,12 @@
 ---
 layout: post
 at: GitHub Brasil
-type: spaces
+type: interview
 title: "Open Source: Ser mantenedora + GitHub Sponsors"
 date: 2022-06-01
 categories:
   [
+    "interview",
     "spaces",
     "twitter-spaces",
     "github",

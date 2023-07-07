@@ -85,3 +85,15 @@ ul {
   font-size: 14px;
   color: $grey-color;
 }
+
+.item-tag {
+  background-color: $brand-color;
+  border: solid transparent;
+  border-radius: 30px;
+  padding: 0 5px;
+  font-size: 10px;
+  color:$background-color;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: center;
+}

@@ -25,6 +25,11 @@ layout: default
   </div>
 
   <p class="categories">
+    {%- if page.type != nil -%}
+        <span class="item-tag">
+          {{ page.type }}
+        </span>
+    {%- endif -%}
     <span> <i class="fas fa-tags fa-xs"></i> </span>
     {% for category in page.categories %}
       <span> {{ category }} </span>

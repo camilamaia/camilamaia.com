@@ -2,12 +2,10 @@
 layout: default
 ---
 
-<div class="home">
+<div class="collections">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
-
-  {{ content }}
 
   {% case page.type %}
   {% when "projects" %}
@@ -22,8 +20,7 @@ layout: default
   <ul class="post-list">
     {% assign sorted_items = items | reverse %}
     {%- for item in sorted_items -%}
-
-      <li>
+      <li class="item">
         {%- if page.no-date == nil -%}
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">
@@ -45,11 +42,17 @@ layout: default
         {%- endif -%}
 
         <p class="categories">
+          {%- if item.type != nil -%}
+              <span class="item-tag">
+                {{ item.type }}
+              </span>
+          {%- endif -%}
           <span> <i class="fas fa-tags fa-xs"></i> </span>
           {% for category in item.categories %}
             <span> {{ category }} </span>
           {% endfor %}
         </p>
+
 
         <a href="{{ item.url | relative_url }}">Read more</a>
       </li>
@@ -62,5 +65,4 @@ layout: default
   {%- endif -%}
 
   {%- endif -%}
-
 </div>
